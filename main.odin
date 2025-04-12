@@ -124,7 +124,7 @@ main :: proc() {
     rl.SetTraceLogLevel(.WARNING)
 
     rl.SetConfigFlags({ .WINDOW_RESIZABLE, .VSYNC_HINT, .MSAA_4X_HINT })
-    rl.InitWindow(1024, 1024, "OClock")
+    rl.InitWindow(1024, 1024, "oclock")
     defer rl.CloseWindow()
 
     anim_switch_time = time.now()._nsec

@@ -1,0 +1,5 @@
+*.exe
+*.pdb
+*.dSYM*
+.DS_Store
+oclock
