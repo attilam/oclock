@@ -87,6 +87,18 @@ themes := []theme {
         hand_highlight = { 216, 216, 255, 255 },
         day =  rl.WHITE
     },
+    {
+        theme = { 189, 254, 0, 255 },
+        bg = { 189, 254, 0, 255 },
+        marker = { 246, 35, 115, 255 }, //rl.ORANGE,
+        marker_shadow = rl.BLANK, //{ 0, 176, 150, 255 },
+        hour = { 52, 0, 251, 255 },
+        minute = { 52, 0, 251, 255 },
+        second = { 52, 0, 251, 255 },
+        hand_shadow = { 128, 128, 128, 255 },
+        hand_highlight = { 216, 216, 255, 255 },
+        day =  rl.BLACK
+    },
 }
 
 current_theme: ^theme = &themes[0]

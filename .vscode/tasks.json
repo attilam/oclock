@@ -14,6 +14,16 @@
             }
         },
         {
+            "label": "Build for Windows",
+            "type": "shell",
+            "command": "odin build . -subsystem:windows",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
             "label": "Test All",
             "type": "shell",
             "command": "odin test . -debug",
